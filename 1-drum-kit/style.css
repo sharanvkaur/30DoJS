@@ -1,0 +1,42 @@
+body {
+  background: url("http://danamic.org/file/2015/09/Reapers-Edited.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.keys {
+  display: flex;
+  flex:1;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+.key {
+  border: 3px solid;
+  border-radius: 10px;
+  font-size: 20px;
+  width: 100px;
+  text-align: center;
+  transition:all .2s;
+  color: blue;
+  margin: .5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+boop {
+  display: block;
+  color: white;
+  font-size: 40px;
+}
+.sound {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.playing {
+  transform:scale(1.1);
+  border-color: white;
+}
